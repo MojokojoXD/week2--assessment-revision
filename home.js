@@ -136,5 +136,5 @@ for (let i = 0; i < deals.length; i++)
 */
 
 // Not sure if question requires iteration.
-deals[1].desc = deals[1].desc.replace("March", "April");
-//console.log(deals);
+deals[1].desc = deals[1].desc.replace("March", "April").trim();
+console.log(deals);
